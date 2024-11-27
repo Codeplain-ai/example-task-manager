@@ -1,0 +1,40 @@
+***Definitions:***
+
+- The App implements a task manager application.
+
+- The User is the user of The App.
+
+- The Task describes an activity that needs to be done by The User. The Task has the following attributes
+  - Name - a short description of The Task. This is a required attribute. The name must be at least 3 characters long.
+  - Notes - additional details about The Task
+  - Due Date - optional date by which The User is supposed to complete The Task.
+
+- The Task List is a list of The Task items.
+  - Initially The Task List should be empty.
+
+
+***Non-Functional Requirements:***
+
+- Implementation should be written in TypeScript, using React as a web framework.
+
+- Please note that The App will be executed using npm.
+
+
+***Test Requirements:***
+
+- End-to-end tests should be written in TypeScript, using Cypress as the end-to-end testing framework.
+
+
+***Functional Requirements:***
+
+- Implement the entry point for The App.
+
+- Show The Task List. The details of the user interface are provided in the file [task_list_ui_specification.yaml](task_list_ui_specification.yaml).
+
+- The User should be able to add The Task. Only valid The Task items can be added. The details of the user interface are provided in the file [add_new_task_modal_specification.yaml](add_new_task_modal_specification.yaml).
+
+- The User should be able to delete The Task.
+
+- The User should be able to edit The Task.
+
+- The User should be able to mark The Task as completed.
