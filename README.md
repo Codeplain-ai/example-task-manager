@@ -34,4 +34,4 @@ task_list_ui_specification.yaml
 add_new_task_modal_specification.yaml
 ```
 
-contain the definition of the user interface. These two files were automatically generated from Figma design (see [figma_screnshots](figma_screnshots) folder) using GPT-4o and a very simple prompt (`Describe this user interface. Your output should be in yaml format.`)
+contain the definition of the user interface. These two files were automatically generated from Figma design (see [figma_screnshots](figma_screenshots) folder) using GPT-4o and a very simple prompt (`Describe this user interface. Your output should be in yaml format.`)
