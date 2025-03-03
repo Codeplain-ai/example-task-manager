@@ -20,11 +20,11 @@ if [ -z "${PLAIN2CODE_RENDERER_DIR:-}" ]; then
     exit 1
 fi
 
-# Removing all the end-to-end tests before rendering the the task manage example.
-rm -rf e2e_tests
-rm -rf node_e2e_tests
+# Removing all the conformance tests before rendering the the task manage example.
+rm -rf conformance_tests
+rm -rf node_conformance_tests
 
-python $PLAIN2CODE_RENDERER_DIR/plain2code.py task_manager.plain --e2e-tests-script=$PLAIN2CODE_RENDERER_DIR//test_scripts/run_e2e_tests_cypress.sh ${VERBOSE:+-v}
+python $PLAIN2CODE_RENDERER_DIR/plain2code.py task_manager.plain --conformance-tests-script=$PLAIN2CODE_RENDERER_DIR//test_scripts/run_conformance_tests_cypress.sh ${VERBOSE:+-v}
 
 # Check if the plain2code command failed
 if [ $? -ne 0 ]; then

@@ -2,6 +2,6 @@
 
 # Ignore all files in the build directory
 build*/
-e2e_tests/
+conformance_tests/
 node_build/
-node_e2e_tests/
+node_conformance_tests/
