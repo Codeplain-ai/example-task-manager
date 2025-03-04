@@ -1,6 +1,30 @@
 ***Definitions:***
 
-- The App implements a task manager application.
+- The App is a web application.
+
+
+***Non-Functional Requirements:***
+
+- The App should be implemented in TypeScript, using React as a web framework.
+
+- Please note that The App will be executed using npm.
+
+
+***Test Requirements:***
+
+- The Conformance Tests should be written in TypeScript, using Cypress as the framework for The Conformance Tests.
+
+
+# The React boilerplate
+
+***Functional Requirements:***
+
+- Implement the entry point for The App.
+
+
+# The Task Manager
+
+***Definitions:***
 
 - The User is the user of The App.
 
@@ -13,21 +37,7 @@
   - Initially The Task List should be empty.
 
 
-***Non-Functional Requirements:***
-
-- Implementation should be written in TypeScript, using React as a web framework.
-
-- Please note that The App will be executed using npm.
-
-
-***Test Requirements:***
-
-- The Conformance Tests should be written in TypeScript, using Cypress as the framework for The Conformance Tests.
-
-
 ***Functional Requirements:***
-
-- Implement the entry point for The App.
 
 - Show The Task List. The details of the user interface are provided in the file [task_list_ui_specification.yaml](task_list_ui_specification.yaml).
 
